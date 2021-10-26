@@ -14,7 +14,7 @@ layout: default
   </ul>
 
   <ul>
-    {% for post in site.collections[posts] limit:3 %}
+    {% for post in site.posts limit:3 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
@@ -25,6 +25,7 @@ layout: default
       <section>
           <h1>{{ collection.label }}</h1>
       </section>
+
   {% endfor %}
 
 

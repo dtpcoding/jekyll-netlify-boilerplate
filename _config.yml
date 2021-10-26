@@ -23,7 +23,6 @@ url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & prot
 
 # Jekyll collections
 # Documentation - https://jekyllrb.com/docs/collections/
-collections_dir: collections
 collections:
   faqs:
     output: true
