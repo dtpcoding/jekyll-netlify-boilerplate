@@ -21,6 +21,12 @@ layout: default
     {% endfor %}
   </ul>
 
+  {% for collection in site.collections %}
+      <section>
+          <h1>{{ collection.label }}</h1>
+      </section>
+  {% endfor %}
+
   <script>
       console.log('test', {{ site }});
   </script>
