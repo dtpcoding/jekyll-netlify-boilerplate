@@ -4,6 +4,9 @@
   url: /
 - text: About
   url: /about
+  subitems:
+    - text: Sub item 1
+      url: /sub-item-1
 - text: Contact
   url: /contact
 - text: Blog
