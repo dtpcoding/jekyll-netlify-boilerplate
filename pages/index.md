@@ -11,5 +11,5 @@ intro_paragraph: >-
   layout, sample pages and posts, and a continuous deployment workflow.
 
 
-  This is a test.
+  This is a new paragraph.
 ---
