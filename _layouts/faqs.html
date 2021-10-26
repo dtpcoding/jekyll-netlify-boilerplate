@@ -8,13 +8,13 @@ layout: default
 {{ content }}
 
 <ul>
-    {% for faq in site.faqs %}
+    {% for faq in site.collections.faqs %}
         {{ faq.title }}
     {% endfor %}
   </ul>
 
   <ul>
-    {% for post in site.posts limit:3 %}
+    {% for post in site.collections.posts limit:3 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
