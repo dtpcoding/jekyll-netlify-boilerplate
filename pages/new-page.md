@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: faqs
 title: New page
 permalink: /new-page
 section: new-page
