@@ -7,4 +7,10 @@ layout: default
 
 {{ content }}
 
+<ul>
+    {% for faq in site.faqs %}
+        {{ faq.title }}
+    {% endfor %}
+  </ul>
+
 {% include contact-form.html %}
